@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/topic-orders",
+      "handler": "topic-order.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/topic-orders/count",
+      "handler": "topic-order.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/topic-orders/:id",
+      "handler": "topic-order.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/topic-orders",
+      "handler": "topic-order.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/topic-orders/:id",
+      "handler": "topic-order.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/topic-orders/:id",
+      "handler": "topic-order.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

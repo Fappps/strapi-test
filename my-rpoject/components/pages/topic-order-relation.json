@@ -1,0 +1,14 @@
+{
+  "info": {
+    "name": "TopicOrderRelation",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "topic_order": {
+      "model": "topic-order"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_pages_topic_order_relations"
+}

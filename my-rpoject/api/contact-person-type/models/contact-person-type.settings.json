@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "contact_person_types",
+  "info": {
+    "name": "Contact Person Type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}

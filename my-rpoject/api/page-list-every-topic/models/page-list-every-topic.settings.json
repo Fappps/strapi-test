@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "page_list_every_topics",
+  "info": {
+    "name": "PageListEveryTopic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "OrderZone": {
+      "type": "dynamiczone",
+      "components": [
+        "pages.test",
+        "pages.topic-order-relation"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

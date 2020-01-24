@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "new_employees",
+  "info": {
+    "name": "New Employee"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "contact_person_organisational": {
+      "model": "contact-person"
+    },
+    "contact_person_technical": {
+      "model": "contact-person"
+    },
+    "Company": {
+      "type": "enumeration",
+      "enum": [
+        "communication",
+        "enterprise",
+        "operations",
+        "proconsult"
+      ]
+    },
+    "pages_dones": {
+      "collection": "page"
+    },
+    "page_list_every_topic": {
+      "model": "page-list-every-topic"
+    }
+  }
+}

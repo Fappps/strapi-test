@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "topic_orders",
+  "info": {
+    "name": "TopicOrder"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Order": {
+      "type": "dynamiczone",
+      "components": [
+        "pages.test"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

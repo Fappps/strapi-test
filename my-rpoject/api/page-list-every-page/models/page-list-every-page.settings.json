@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "page_list_every_pages",
+  "info": {
+    "name": "PageListEveryPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "OrderZone": {
+      "type": "dynamiczone",
+      "components": [
+        "pages.test"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

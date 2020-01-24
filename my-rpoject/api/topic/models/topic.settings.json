@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "topics",
+  "info": {
+    "name": "Topic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pages": {
+      "via": "topic",
+      "collection": "page"
+    }
+  }
+}

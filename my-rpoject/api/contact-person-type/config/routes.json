@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contact-person-types",
+      "handler": "contact-person-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contact-person-types/count",
+      "handler": "contact-person-type.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contact-person-types/:id",
+      "handler": "contact-person-type.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contact-person-types",
+      "handler": "contact-person-type.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contact-person-types/:id",
+      "handler": "contact-person-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contact-person-types/:id",
+      "handler": "contact-person-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

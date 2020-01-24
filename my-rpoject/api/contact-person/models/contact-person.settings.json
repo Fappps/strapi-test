@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "contact_people",
+  "info": {
+    "name": "Contact Person"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "contact_person_type": {
+      "model": "contact-person-type"
+    },
+    "company": {
+      "type": "enumeration",
+      "enum": [
+        "communication",
+        "enterprise",
+        "operations",
+        "proconsult"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Button",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_container_buttons"
+}

@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "shortTitleDE": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "container.text-block",
+        "container.button"
+      ]
+    },
+    "shortTitleEN": {
+      "type": "string"
+    },
+    "best_contact_person_type": {
+      "model": "contact-person-type"
+    },
+    "topic": {
+      "model": "topic",
+      "via": "pages"
+    }
+  }
+}

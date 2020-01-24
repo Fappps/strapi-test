@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_test_tests",
+  "info": {
+    "name": "PageRelation",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "model": "page"
+    }
+  }
+}

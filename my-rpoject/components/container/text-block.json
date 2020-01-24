@@ -1,0 +1,14 @@
+{
+  "info": {
+    "name": "TextBlock",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_container_text_blocks"
+}
